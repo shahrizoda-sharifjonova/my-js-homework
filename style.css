@@ -1,0 +1,37 @@
+.container{
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+}
+.box__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.tab__item{
+    width: 100px;
+    height: 50px;
+    color: #000;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid tomato;
+}
+.box__link.active{
+    color: tomato;
+}
+.tab__item.active{
+    background: springgreen;
+}
