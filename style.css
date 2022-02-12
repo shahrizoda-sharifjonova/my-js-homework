@@ -46,7 +46,7 @@
     transition: 300ms ease;
 }
 .box__link.active, .box__link-2.active{
-    color: crimson;
+    color: orange;
 }
 .tab__item.active, .tab__item-2.active{
     background: darkorchid;
