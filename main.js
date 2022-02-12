@@ -20,3 +20,15 @@ const tabs = new Tab({
     link: '.box__link',
     tab: '.tab__item'
 })
+
+
+class Tab2 extends Tab{
+    constructor(obj){
+        tab(obj)
+    }
+}
+
+const tab2 = new Tab({
+    link: '.box__link-2',
+    tab: '.tab__item-2'
+})
